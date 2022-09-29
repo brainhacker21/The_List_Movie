@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Auric/AndroidStudioProjects/TheMovies/androidcore/src/main/res/drawable/background_loading_backdrop.xml" value="0.2265" />
+        <entry key="..\:/Users/Auric/AndroidStudioProjects/TheMovies/androidcore/src/main/res/drawable/background_loading_poster.xml" value="0.2265" />
         <entry key="..\:/Users/Auric/AndroidStudioProjects/TheMovies/androidcore/src/main/res/drawable/bg_loading_backdrop.xml" value="0.121" />
         <entry key="..\:/Users/Auric/AndroidStudioProjects/TheMovies/androidcore/src/main/res/drawable/drawable.xml" value="0.12" />
         <entry key="..\:/Users/Auric/AndroidStudioProjects/TheMovies/androidcore/src/main/res/layout/list_item_row_movies.xml" value="0.4" />

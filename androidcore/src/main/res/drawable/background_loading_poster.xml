@@ -2,8 +2,7 @@
     android:width="100dp"
     android:height="150dp"
     android:viewportWidth="30"
-    android:viewportHeight="50"
-    android:position="center">
+    android:viewportHeight="50">
 
   <path
       android:pathData="M0,0h100v150h-100z"
