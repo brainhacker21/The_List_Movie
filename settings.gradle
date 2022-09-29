@@ -1,0 +1,4 @@
+rootProject.name = "The Movies Sub 1 by Auric"
+include ':app'
+include ':androidcore'
+include ':watchlist'

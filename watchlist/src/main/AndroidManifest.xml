@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.auric.themoviessub1byauric.watchlist">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_watchlist">
+        <dist:delivery>
+            <dist:install-time />
+        </dist:delivery>
+
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <application tools:ignore="AllowBackup">
+        <activity
+            android:name="com.auric.themoviessub1byauric.watchlist.ui.WatchlistActivity"
+            android:parentActivityName="com.auric.themoviessub1byauric.ui.main.MainActivity"
+            android:theme="@style/Theme.TheMoviesSub1ByAuric">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="watchlist"
+                    android:scheme="themoviessub1byauric" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
